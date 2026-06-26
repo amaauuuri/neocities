@@ -159,3 +159,43 @@ footer {
         transform: translate(0, 0);
     }
 }
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        padding-top: 140px;
+        /* Gives more space for the wrapped mobile header */
+    }
+
+    /* Converts the 2-column grid into a single vertical column */
+    .main-grid {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        margin: 15px auto;
+    }
+
+    /* Adjusts the header layout so menu items wrap cleanly */
+    .header-container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 5px;
+        display: inline-block;
+        font-size: 0.9em;
+    }
+
+    /* Shrinks the padding inside boxes slightly to save space on smaller screens */
+    .content-box {
+        padding: 15px;
+    }
+
+    /* Makes the retro footer buttons stack nicely if they don't fit */
+    .retro-button {
+        display: block;
+        margin: 10px auto;
+        max-width: 200px;
+    }
+}
