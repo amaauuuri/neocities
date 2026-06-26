@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMAU // TERMINAL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header id="navbar">
+    <div class="header-container">
+      <div class="logo">AMAU_GRID_V1.0</div>
+      <nav>
+        <a href="index.html">⌂ Home</a>
+        <a href="#">ℹ About Me</a>
+        <a href="#">▤ Blog</a>
+        <a href="#">⌗ Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main-grid">
+
+    <main>
+      <section class="content-box">
+        <span class="box-label">[system_init]</span>
+        <h2>Welcome to the Subterranean Space</h2>
+        <p>This is a custom-built corner on the web. Heavily inspired by Y2K aesthetics, techno music cultures, and raw
+          terminal layouts.</p>
+      </section>
+
+      <section class="content-box">
+        <span class="box-label">[sonic_rotation]</span>
+        <h3>Latest Frequencies</h3>
+        <p>Exploring hardware sequencing, deep bassline modulations, and industrial ambient textures.</p>
+      </section>
+    </main>
+
+    <aside>
+      <section class="content-box">
+        <span class="box-label">[core_status]</span>
+        <p><strong>Mood:</strong> Building things</p>
+        <p><strong>OS:</strong> Arch Linux</p>
+        <div style="border: 1px dashed #553388; text-align: center; padding: 20px; margin-top: 15px;">
+          [🐈 Cat Animation Space]
+        </div>
+      </section>
+    </aside>
+
+  </div>
+
+  <footer>
+    <p>Connect through the mesh:</p>
+    <a href="https://github.com" target="_blank" class="retro-button">» GITHUB «</a>
+    <a href="https://instagram.com" target="_blank" class="retro-button">» INSTAGRAM «</a>
+    <a href="mailto:your-email@domain.com" class="retro-button">» EMAIL «</a>
+  </footer>
+
+  <script>
+    let lastScrollTop = 0;
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", function () {
+      let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > lastScrollTop) {
+        // Scrolling down -> hide header
+        navbar.style.top = "-80px";
+      } else {
+        // Scrolling up -> show header
+        navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    });
+  </script>
+
+</body>
+
+</html>
