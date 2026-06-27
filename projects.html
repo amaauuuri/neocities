@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Amauri's personal Webcore space - Antigravity 2.0">
-    <title>AMAU // TERMINAL</title>
+    <meta name="description" content="Amauri's Projects - Antigravity 2.0 Terminal">
+    <title>AMAU // PROJECTS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,10 +22,10 @@
                 <span class="logo-rest">mauri</span>
             </div>
             <nav>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About Me</a>
                 <a href="blog.html">Blog</a>
-                <a href="projects.html">Projects</a>
+                <a href="projects.html" class="active">Projects</a>
             </nav>
         </div>
     </header>
@@ -66,34 +66,46 @@
         <!-- Column 2 (Center Content) -->
         <main class="center-content">
             <section class="content-box purple-border-box">
-                <span class="box-label">[system_init]</span>
-                <div class="hero-sec">
-                    <h1>AMAU_GRID_V2.0</h1>
-                    <p class="hero-subtitle">Indie web developer // retro-futuristic explorer // synthesist</p>
-                </div>
-                <p>Welcome to my home node on the Web. <strong>Antigravity 2.0</strong> is a craft-focused digital terminal built using vanilla HTML and CSS. No bloated trackers, no frameworks—just clean, low-latency hypermedia inspired by Y2K cyberpunk aesthetics, synth-frequencies, and the raw creative spirit of the early web.</p>
-                <p>Here you'll find logs of my digital experiments, ongoing software project details, soundscapes, and aesthetic bookmarks. Step inside the grid.</p>
-            </section>
-
-            <section class="content-box cyan-border-box dashed">
-                <span class="box-label">[latest_transmission]</span>
-                <h2>Recent Log Entries</h2>
-                <div class="blog-list" style="margin-top: 15px;">
-                    <div class="blog-post-item">
-                        <div class="blog-meta">
-                            <span>2026-06-27</span>
-                            <span>[sys_logs]</span>
+                <span class="box-label">[projects_index]</span>
+                <h2>Projects Grid</h2>
+                <p>A collection of my digital experiments, open-source software, and sound synthesis projects. I believe in creating products that are lightweight, responsive, and highly interactive.</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3 class="project-title">Antigravity 2.0</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">Design</span>
                         </div>
-                        <h3><a href="blog.html" class="blog-title-link">Migration Complete: Antigravity 2.0</a></h3>
-                        <p>Fully migrated the personal terminal layout. Successfully implemented the 3-column responsive layout grid, custom scrollbars, and neon glows.</p>
+                        <p>This personal portfolio site. Features a 3-column layout, retro-futuristic borders, dot matrix pattern background, and micro-animations.</p>
                     </div>
-                    <div class="blog-post-item">
-                        <div class="blog-meta">
-                            <span>2026-06-15</span>
-                            <span>[sonic_vibe]</span>
+                    <div class="project-card">
+                        <h3 class="project-title">SonicMod</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Audio</span>
+                            <span class="project-tag">WebAudio</span>
+                            <span class="project-tag">JS</span>
                         </div>
-                        <h3><a href="blog.html" class="blog-title-link">Synthesizing Ambient Textures</a></h3>
-                        <p>Working on deep-bass modular oscillators to generate cyberpunk ambient drones. Recording and scheduling sessions for July.</p>
+                        <p>An interactive browser-based synthesizer. Uses WebAudio API to model classic retro analog oscillators and filter circuits in real time.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">NekoCompanion</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">JS</span>
+                            <span class="project-tag">PixelArt</span>
+                            <span class="project-tag">Animation</span>
+                        </div>
+                        <p>A lightweight, interactive desktop companion. Animates cute retro-style pixel cats and reacts to terminal outputs.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">DotGrid.css</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">Library</span>
+                            <span class="project-tag">OpenSource</span>
+                        </div>
+                        <p>A lightweight utility stylesheet for generating retro dot matrix and isometric grid patterns using only CSS variables.</p>
                     </div>
                 </div>
             </section>
