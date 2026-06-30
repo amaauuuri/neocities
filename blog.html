@@ -7,14 +7,17 @@
     <meta name="description" content="Amauri's Blog - Antigravity 2.0 Terminal">
     <title>AMAU // BLOG</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
 
-    <!-- Fixed Glassmorphism Header -->
+    <!-- Double-Sized Symmetrical Header -->
     <header id="navbar">
         <div class="header-container">
+            <nav class="nav-group-left">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+            </nav>
             <div class="logo">
                 <span class="logo-star-container">
                     <svg class="logo-star" viewBox="0 0 24 24">
@@ -24,9 +27,7 @@
                 </span>
                 <span class="logo-rest">mauri</span>
             </div>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
+            <nav class="nav-group-right">
                 <a href="blog.html" class="active">Blog</a>
                 <a href="projects.html">Projects</a>
             </nav>
@@ -71,68 +72,74 @@
 
         <!-- Column 2 (Center Content) -->
         <main class="center-content">
-            <section class="content-box purple-border-box">
-                <span class="box-label">[blog_index]</span>
-                <h2>The Data Stream</h2>
-                <p>This is a place to log thoughts, theories, synthesis notes, and design guidelines. Writing articles
-                    on the indie web is my favorite way to capture reflections without corporate metrics or tracking
-                    loops.</p>
+            <!-- Premium Moving Glow Border Box -->
+            <div class="glowing-box">
+                <div class="glowing-box-border"></div>
+                <div class="glowing-box-content">
+                    <span class="box-label">[blog_index]</span>
+                    <h2>The Data Stream</h2>
+                    <p>This is a place to log thoughts, theories, synthesis notes, and design guidelines. Writing
+                        articles on the indie web is my favorite way to capture reflections without corporate metrics or
+                        tracking loops.</p>
 
-                <div class="blog-list" style="margin-top: 20px;">
-                    <div class="blog-post-item">
-                        <div class="blog-meta">
-                            <span>2026-06-27</span>
-                            <span>[sys_logs]</span>
+                    <div class="blog-list" style="margin-top: 20px;">
+                        <div class="blog-post-item">
+                            <div class="blog-meta">
+                                <span>2026-06-27</span>
+                                <span>[sys_logs]</span>
+                            </div>
+                            <h3><a href="#" class="blog-title-link">Migration Complete: Antigravity 2.0</a></h3>
+                            <p>After testing borders, layout constraints, and fixed headers, the migration of the core
+                                theme is now complete. The dot matrix pattern aligns nicely with cyan and purple
+                                components. I have cleaned up the styles to be highly optimized and modular.</p>
                         </div>
-                        <h3><a href="#" class="blog-title-link">Migration Complete: Antigravity 2.0</a></h3>
-                        <p>After testing borders, layout constraints, and fixed headers, the migration of the core theme
-                            is now complete. The dot matrix pattern aligns nicely with cyan and purple components. I
-                            have cleaned up the styles to be highly optimized and modular.</p>
-                    </div>
-                    <div class="blog-post-item">
-                        <div class="blog-meta">
-                            <span>2026-06-15</span>
-                            <span>[sonic_vibe]</span>
+                        <div class="blog-post-item">
+                            <div class="blog-meta">
+                                <span>2026-06-15</span>
+                                <span>[sonic_vibe]</span>
+                            </div>
+                            <h3><a href="#" class="blog-title-link">Synthesizing Ambient Textures</a></h3>
+                            <p>I have spent the past weekend setting up physical modules to play continuous, droning
+                                soundscapes. Combining a deep low-pass ladder filter with low-frequency oscillators
+                                creates a classic cyber-acoustic vibe. I plan to publish some tracks in modular format
+                                soon.</p>
                         </div>
-                        <h3><a href="#" class="blog-title-link">Synthesizing Ambient Textures</a></h3>
-                        <p>I have spent the past weekend setting up physical modules to play continuous, droning
-                            soundscapes. Combining a deep low-pass ladder filter with low-frequency oscillators creates
-                            a classic cyber-acoustic vibe. I plan to publish some tracks in modular format soon.</p>
-                    </div>
-                    <div class="blog-post-item">
-                        <div class="blog-meta">
-                            <span>2026-05-30</span>
-                            <span>[webcore]</span>
+                        <div class="blog-post-item">
+                            <div class="blog-meta">
+                                <span>2026-05-30</span>
+                                <span>[webcore]</span>
+                            </div>
+                            <h3><a href="#" class="blog-title-link">Keeping the Web Indie & Hand-Crafted</a></h3>
+                            <p>In a world of huge corporate frameworks and dynamic hydration bundles, writing simple
+                                hand-crafted HTML/CSS pages feels incredibly liberating. The raw early web was
+                                characterized by individual creativity, and Neocities helps keep that craft alive. Let's
+                                build lightweight pages that load instantly and display our own unique personalities.
+                            </p>
                         </div>
-                        <h3><a href="#" class="blog-title-link">Keeping the Web Indie & Hand-Crafted</a></h3>
-                        <p>In a world of huge corporate frameworks and dynamic hydration bundles, writing simple
-                            hand-crafted HTML/CSS pages feels incredibly liberating. The raw early web was characterized
-                            by individual creativity, and Neocities helps keep that craft alive. Let's build lightweight
-                            pages that load instantly and display our own unique personalities.</p>
                     </div>
                 </div>
-            </section>
+            </div>
         </main>
 
         <!-- Column 3 (Right Sidebar) -->
         <aside class="right-sidebar">
             <section class="content-box purple-border-box">
-                <span class="box-label">[Top tracks]</span>
+                <span class="box-label">[audiolog]</span>
                 <div class="playlist-widget">
-                    <div class="song-item playing"> Sleeves touch my elbows - 1tbsp</div>
-                    <div class="song-item">Interconection - Enrico S.</div>
-                    <div class="song-item">Space Date (Remix) - Adam Beyer ft.</div>
-                    <div class="song-item">GLorious - Dast (Italy)</div>
+                    <div class="song-item playing">Resonance - HOME</div>
+                    <div class="song-item">Cyanide - Astroid</div>
+                    <div class="song-item">Digital Love - Daft Punk</div>
+                    <div class="song-item">Neo Tokyo - Scandroid</div>
                 </div>
             </section>
 
             <section class="content-box cyan-border-box dashed">
-                <span class="box-label">[Pricipal Tags]</span>
+                <span class="box-label">[meshrings]</span>
                 <div class="badge-grid">
-                    <div class="badge-placeholder">Y2K</div>
-                    <div class="badge-placeholder">TECHNO</div>
-                    <div class="badge-placeholder">MUSIC</div>
-                    <div class="badge-placeholder">CATSSS</div>
+                    <div class="badge-placeholder">Y2K_SAFE</div>
+                    <div class="badge-placeholder">NETSCAPE</div>
+                    <div class="badge-placeholder">HTML_5</div>
+                    <div class="badge-placeholder">RETRO_FX</div>
                 </div>
             </section>
         </aside>
@@ -143,13 +150,13 @@
     <footer>
         <div class="footer-text">CONNECT THROUGH THE MESH // AMAURI v2.0</div>
         <div class="footer-buttons">
-            <a href="https://github.com/amaauuuri" target="_blank" class="retro-footer-button">» GitHub «</a>
-            <a href="https://www.instagram.com/amaauuuri/" target="_blank" class="retro-footer-button">» Instagram «</a>
-            <a href="mailto:amaauuuri@gmail.com" class="retro-footer-button">» Email «</a>
+            <a href="https://github.com" target="_blank" class="retro-footer-button">» GitHub «</a>
+            <a href="https://instagram.com" target="_blank" class="retro-footer-button">» Instagram «</a>
+            <a href="mailto:your-email@domain.com" class="retro-footer-button">» Email «</a>
         </div>
     </footer>
 
-    <!-- Header Scroll Logic -->
+    <!-- Header Scroll & Y2K GIF Injector Logic -->
     <script>
         let lastScrollTop = 0;
         const navbar = document.getElementById("navbar");
@@ -164,6 +171,31 @@
                 navbar.classList.remove("header-hidden");
             }
             lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+
+        // Y2K Contextual Icon/Animation Injector Utility
+        document.addEventListener("DOMContentLoaded", () => {
+            const labels = document.querySelectorAll(".box-label");
+            labels.forEach(label => {
+                const text = label.textContent.toLowerCase();
+                if (text.includes("status")) {
+                    label.insertAdjacentHTML("afterbegin", '<span class="y2k-icon y2k-status-icon"></span>');
+                } else if (text.includes("audiolog")) {
+                    label.insertAdjacentHTML("afterbegin", '<span class="y2k-icon y2k-music-icon"><span></span><span></span><span></span></span>');
+                } else if (text.includes("meshrings") || text.includes("projects") || text.includes("index")) {
+                    label.insertAdjacentHTML("afterbegin", '<span class="y2k-icon y2k-spark-icon"></span>');
+                } else if (text.includes("init") || text.includes("profile") || text.includes("transmission")) {
+                    label.insertAdjacentHTML("afterbegin", '<span class="y2k-icon y2k-spark-icon" style="background: var(--neon-pink);"></span>');
+                }
+            });
+
+            const footerButtons = document.querySelectorAll(".retro-footer-button");
+            footerButtons.forEach(btn => {
+                const text = btn.textContent.toLowerCase();
+                if (text.includes("email")) {
+                    btn.insertAdjacentHTML("afterbegin", '<span class="y2k-icon y2k-email-icon" style="border-color: var(--text-main);"></span>');
+                }
+            });
         });
     </script>
 </body>
